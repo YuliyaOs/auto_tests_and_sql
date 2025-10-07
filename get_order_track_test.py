@@ -51,6 +51,8 @@ def negative_assert_no_track(params):
     assert get_order_response.json(
     )["message"] == "Недостаточно данных для поиска"
 
+    
+# Ославская Юлия, 35-я когорта - Финальный проект. Инженер по тестированию плюс
 
 # Тест 1. Успешное получение заказа по треку заказа
 def test_get_order_with_track_success_response():
